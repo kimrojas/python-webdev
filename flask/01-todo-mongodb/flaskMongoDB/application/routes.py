@@ -3,4 +3,4 @@ from flask import render_template
 
 @app.route("/")
 def index():
-    return render_template("layout.html", title="Layout Page")
+    return render_template("view_todos.html", title="Layout Page")
